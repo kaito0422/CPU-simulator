@@ -1,8 +1,0 @@
-MOV R0, #1
-MOV R1, #2
-ADD R2, R0, R1
-ADD R2, R0, #1234
-MOV R3, #1024
-STR (R3), R2
-LDR R5, (R2)
-JMP #1
